@@ -425,7 +425,7 @@ with tab6:
         ],
         "Value": [
             round(control_testing["COST_PER_TEST_USD"].mean() * 0.3 * 200, 2),  # 30% savings on 200 tests
-            round(control_testing["AUDIT_CYCLE_TIME_DAYS"].mean() * 8 * 200, 2),  # 200 tests * avg days * 8 hours
+            round(audit_findings["AUDIT_CYCLE_TIME_DAYS"].mean() * 8 * 200, 2),  # 200 tests * avg days * 8 hours
             random.randint(20, 40),
             random.randint(15, 30),
         ],
