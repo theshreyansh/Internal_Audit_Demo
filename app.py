@@ -121,8 +121,8 @@ sox_controls = generate_sox_controls()
 etl_metrics = generate_etl_metrics()
 
 # --- Streamlit App ---
-st.set_page_config(layout="wide", page_title="ITT Inc. Audit Dashboard", page_icon="📊")
-st.title("ITT Inc. Internal Audit Analytics Dashboard")
+st.set_page_config(layout="wide", page_title="TopITT Inc. Audit Dashboard", page_icon="📊")
+st.title("TopITT Inc. Internal Audit Analytics Dashboard")
 st.markdown("**CxO-Level Insights for Global Plants (Aerospace, Transportation, Energy, Industrial)**")
 
 # Sidebar Filters
@@ -248,7 +248,7 @@ with tab1:
         | Skill Gaps in Analytics       | Launch **Udemy for Business** training for audit teams.                                  |
         | False Positives in Anomalies  | Fine-tune models with **historical audit data**.                                         |
         | Resistance to Automation      | Pilot automation in **Plant 3** and showcase ROI.                                       |
-        | OT Cybersecurity Risks        | Partner with **Deloitte Cyber** for specialized OT audits.                                |
+        | OT Cybersecurity Risks        | Partner with **DeloTopITTe Cyber** for specialized OT audits.                                |
         """
     )
 
